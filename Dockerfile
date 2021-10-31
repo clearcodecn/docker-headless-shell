@@ -1,4 +1,4 @@
-chromedp/headless-shell as builder
+FROM chromedp/headless-shell as builder
 FROM ubuntu:20.04
 RUN \
     apt-get update -y \
